@@ -1,11 +1,10 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
-import { Platform } from 'react-native';
-
+import { Colors } from '@/constants/Colors';
 import { HapticTab } from '@/components/HapticTab';
 import { IconSymbol } from '@/components/ui/IconSymbol';
+import { Platform } from 'react-native';
+import React from 'react';
 import TabBarBackground from '@/components/ui/TabBarBackground';
-import { Colors } from '@/constants/Colors';
+import { Tabs } from 'expo-router';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
 export default function TabLayout() {
@@ -34,9 +33,9 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="generator"
         options={{
-          title: 'Explore',
+          title: 'Generator',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />

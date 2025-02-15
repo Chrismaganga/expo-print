@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2ad0d479-7c9c-4a29-8929-b9bb46c61899"
+      }
+    },
+    "owner": "maganga"
   }
 }
